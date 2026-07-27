@@ -45,3 +45,26 @@ Estas URL son de **ENTREGA**: solo se usan **después** de que la persona haya d
 
 - Subir los **PDF rellenables** a Media Storage de GHL y anotar sus URL en `30_PROYECTOS\00_LEAD_MAGNETS\06_PDF PARA ENTREGAR (rellenables) 2026-07-24\LEEME - entrega y URLs.md`.
 - Crear la **landing `/puntua-tu-consultora`** en GHL (aún no existe) antes de activar MKT-04.
+
+---
+
+## PUBLICADO 27-jul · mapa de flujos
+
+Estado: **publicado el 2026-07-27** en `https://recursos.brandty.es/mapa-flujos/`.
+
+Objetivo: que Mari y el implementador miren siempre la misma versión, en vez de pasarse el archivo
+por WhatsApp.
+
+1. [x] Copiar `30_PROYECTOS\MAPA_FLUJOS_GHL\index.html` a `/mapa-flujos/index.html` dentro de este repo.
+2. [x] Comprobar que lleva `<meta name="robots" content="noindex, follow">`.
+3. [x] Mantenerlo sin enlaces desde el índice del sitio ni desde otras páginas.
+4. [x] Verificar la URL publicada: `https://recursos.brandty.es/mapa-flujos/`.
+
+**Recordatorio de mantenimiento:** cada vez que se actualice el mapa original, volver a copiar
+`30_PROYECTOS\MAPA_FLUJOS_GHL\index.html` sobre `mapa-flujos/index.html`, comprobar que conserva
+el `noindex`, subir el cambio y verificar de nuevo la URL pública.
+
+**Por qué noindex y sin enlazar:** el mapa contiene detalle operativo interno (identificadores de
+formulario, URL del calendario, lógica de los workflows, decisiones de negocio). No es información
+secreta, pero tampoco conviene que la encuentre cualquiera en Google. Si se quiere control real de
+acceso, la alternativa es un repositorio privado, que exige plan de pago para publicar páginas.
