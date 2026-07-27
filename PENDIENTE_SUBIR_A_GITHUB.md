@@ -41,18 +41,23 @@ Estas URL son de **ENTREGA**: solo se usan **después** de que la persona haya d
 - En los **emails de nurturing** (MKT-04, MKT-05) el enlace debe ir a la **landing con formulario** (`go.brandty.es/...`), nunca al recurso directo. Si se enlaza el recurso, se regala sin captar el dato y se rompe el doble opt-in.
 - Tampoco enlazar el recurso desde la landing indexable (regla del canon de landings §9).
 
-## Otros pendientes relacionados
+## Otros elementos relacionados ya resueltos
 
-- Subir los **PDF rellenables** a Media Storage de GHL y anotar sus URL en `30_PROYECTOS\00_LEAD_MAGNETS\06_PDF PARA ENTREGAR (rellenables) 2026-07-24\LEEME - entrega y URLs.md`.
-- Crear la **landing `/puntua-tu-consultora`** en GHL (aún no existe) antes de activar MKT-04.
+- [x] Los tres **PDF rellenables** están en Media Storage de GHL y sus URL constan en `30_PROYECTOS\00_LEAD_MAGNETS\06_PDF PARA ENTREGAR (rellenables) 2026-07-24\LEEME - entrega y URLs.md`.
+- [x] La landing **Puntúa tu consultora** está publicada en `https://go.brandty.es/puntua-tu-consultora-518560`. MKT-04 sigue en borrador y no debe activarse hasta completar sus pruebas.
 
 ---
 
-## PUBLICADO 27-jul · mapa de flujos
+## PUBLICADO Y AUDITADO 27-jul · mapa de flujos
 
 Estado: **publicado en GitHub Pages el 2026-07-27** en
 `https://recursos.brandty.es/mapa-flujos/`. El contenido ya está desplegado, pero la comprobación
 final por HTTPS sigue pendiente hasta que GitHub emita el certificado del dominio.
+
+Última auditoría y sincronización del contenido: **2026-07-27**. Se contrastó el mapa con GHL en
+vivo y con las URL públicas. El mapa distingue ahora entre **verificado en vivo**,
+**existe/parcial/sin prueba integral** y **diseñado o pendiente**. No se considera operativo un
+workflow solo por figurar como Publicado.
 
 Objetivo: que Mari y el implementador miren siempre la misma versión, en vez de pasarse el archivo
 por WhatsApp.
@@ -60,7 +65,9 @@ por WhatsApp.
 1. [x] Copiar `30_PROYECTOS\MAPA_FLUJOS_GHL\index.html` a `/mapa-flujos/index.html` dentro de este repo.
 2. [x] Comprobar que lleva `<meta name="robots" content="noindex, follow">`.
 3. [x] Mantenerlo sin enlaces desde el índice del sitio ni desde otras páginas.
-4. [ ] Verificar la URL por HTTPS y la interacción en navegador cuando GitHub emita el certificado:
+4. [x] Verificar localmente que se ve el plan con las tareas cerradas, aparece el registro de
+   cambios y las cajas del diagrama abren su panel lateral.
+5. [ ] Verificar la URL por HTTPS y repetir la comprobación de interacción cuando GitHub emita el certificado:
    `https://recursos.brandty.es/mapa-flujos/`.
 
 **Recordatorio de mantenimiento:** cada vez que se actualice el mapa original, volver a copiar
