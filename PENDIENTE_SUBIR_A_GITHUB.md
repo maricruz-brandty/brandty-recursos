@@ -1,14 +1,19 @@
-# PENDIENTE · Publicar este repo en GitHub Pages
+# ESTADO · Publicación en GitHub Pages
 
-Estado: **preparado en local, sin subir**. Fecha de preparación: 2026-07-25.
-Nada de esto está en línea todavía: las URL de abajo **aún no funcionan** hasta completar los pasos 1-4.
+Estado: **repositorio publicado y Pages desplegado; DNS pendiente**. Actualizado: 2026-07-27.
+
+- Repo público: `https://github.com/maricruz-brandty/brandty-recursos`
+- Rama y origen de Pages: `main` · `/ (root)`
+- Build verificado: commit `f8cb8409bf58389ca2b6f01db810c5f54f325192`
+- Dominio configurado en GitHub Pages: `recursos.brandty.es`
+- Bloqueo actual: el registro DNS todavía no existe; las URL públicas no resolverán hasta completar el paso 4.
 
 ## Qué falta hacer (por orden)
 
-1. **Crear el repositorio** `brandty-recursos` en la cuenta/organización de Brandty en GitHub (privado o público; Pages funciona en ambos con plan de pago, en cuenta gratuita el repo debe ser público).
-2. **Subir esta carpeta completa** (incluidos `.nojekyll` y `CNAME`; sin ellos, GitHub ignora carpetas y se pierde el dominio propio).
-3. **Activar Pages**: Settings → Pages → Source: *Deploy from a branch* → rama `main`, carpeta `/ (root)` → Save.
-4. **DNS**: crear un registro **CNAME** `recursos` → `<usuario-github>.github.io` en el proveedor de dominio de Brandty. Después, en Settings → Pages, marcar **Enforce HTTPS** (tarda unos minutos en habilitarse).
+1. [x] Crear el repositorio público `maricruz-brandty/brandty-recursos`.
+2. [x] Subir la carpeta completa, incluidos `.nojekyll` y `CNAME`.
+3. [x] Activar Pages desde `main` y `/ (root)`.
+4. [ ] **DNS**: crear un registro **CNAME** `recursos` → `maricruz-brandty.github.io` en el proveedor de dominio de Brandty. Después, cuando GitHub valide el certificado, marcar **Enforce HTTPS**.
 
 ## Comprobar antes de dar por bueno
 
@@ -16,7 +21,7 @@ Nada de esto está en línea todavía: las URL de abajo **aún no funcionan** ha
 - [ ] El **logo** aparece en `puntua-tu-consultora` y `mapa-decision`.
 - [ ] El botón **"Guardar mi resultado en PDF"** abre el diálogo de impresión y el PDF sale limpio (sin el botón).
 - [ ] Se ve bien en **móvil**.
-- [ ] El código fuente incluye `<meta name="robots" content="noindex, follow">`.
+- [x] El código fuente incluye `<meta name="robots" content="noindex, follow">`.
 
 ## URL que quedarán activas
 
