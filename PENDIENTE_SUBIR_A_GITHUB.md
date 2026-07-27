@@ -1,13 +1,13 @@
 # ESTADO · Publicación en GitHub Pages
 
-Estado: **repositorio, Pages y DNS operativos; certificado HTTPS pendiente**. Actualizado: 2026-07-27.
+Estado: **publicado y operativo por HTTPS**. Actualizado: 2026-07-27.
 
 - Repo público: `https://github.com/maricruz-brandty/brandty-recursos`
 - Rama y origen de Pages: `main` · `/ (root)`
 - Build verificado: último commit de `main`, estado `built` el 2026-07-27
 - Dominio configurado en GitHub Pages: `recursos.brandty.es`
 - DNS verificado: `recursos.brandty.es` → `maricruz-brandty.github.io`
-- Bloqueo actual: GitHub todavía está emitiendo el certificado; las cuatro rutas responden por HTTP, pero falta activar HTTPS.
+- HTTPS verificado: certificado aprobado y **Enforce HTTPS** activado el 2026-07-27.
 
 ## Qué falta hacer (por orden)
 
@@ -15,7 +15,7 @@ Estado: **repositorio, Pages y DNS operativos; certificado HTTPS pendiente**. Ac
 2. [x] Subir la carpeta completa, incluidos `.nojekyll` y `CNAME`.
 3. [x] Activar Pages desde `main` y `/ (root)`.
 4. [x] Crear **CNAME** `recursos` → `maricruz-brandty.github.io`.
-5. [ ] Cuando GitHub termine de emitir el certificado, activar **Enforce HTTPS**.
+5. [x] Certificado emitido y **Enforce HTTPS** activado.
 
 ## Comprobar antes de dar por bueno
 
@@ -50,9 +50,8 @@ Estas URL son de **ENTREGA**: solo se usan **después** de que la persona haya d
 
 ## PUBLICADO Y AUDITADO 27-jul · mapa de flujos
 
-Estado: **publicado en GitHub Pages el 2026-07-27** en
-`https://recursos.brandty.es/mapa-flujos/`. El contenido ya está desplegado, pero la comprobación
-final por HTTPS sigue pendiente hasta que GitHub emita el certificado del dominio.
+Estado: **publicado y verificado por HTTPS el 2026-07-27** en
+`https://recursos.brandty.es/mapa-flujos/`. El certificado es válido y GitHub Pages fuerza HTTPS.
 
 Última auditoría y sincronización del contenido: **2026-07-27**. Se contrastó el mapa con GHL en
 vivo y con las URL públicas. El mapa distingue ahora entre **verificado en vivo**,
@@ -67,7 +66,7 @@ por WhatsApp.
 3. [x] Mantenerlo sin enlaces desde el índice del sitio ni desde otras páginas.
 4. [x] Verificar localmente que se ve el plan con las tareas cerradas, aparece el registro de
    cambios y las cajas del diagrama abren su panel lateral.
-5. [ ] Verificar la URL por HTTPS y repetir la comprobación de interacción cuando GitHub emita el certificado:
+5. [x] Verificar la URL por HTTPS y repetir la comprobación de interacción:
    `https://recursos.brandty.es/mapa-flujos/`.
 
 **Recordatorio de mantenimiento:** cada vez que se actualice el mapa original, volver a copiar
