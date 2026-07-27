@@ -50,7 +50,9 @@ Estas URL son de **ENTREGA**: solo se usan **después** de que la persona haya d
 
 ## PUBLICADO 27-jul · mapa de flujos
 
-Estado: **publicado el 2026-07-27** en `https://recursos.brandty.es/mapa-flujos/`.
+Estado: **publicado en GitHub Pages el 2026-07-27** en
+`https://recursos.brandty.es/mapa-flujos/`. El contenido ya está desplegado, pero la comprobación
+final por HTTPS sigue pendiente hasta que GitHub emita el certificado del dominio.
 
 Objetivo: que Mari y el implementador miren siempre la misma versión, en vez de pasarse el archivo
 por WhatsApp.
@@ -58,7 +60,8 @@ por WhatsApp.
 1. [x] Copiar `30_PROYECTOS\MAPA_FLUJOS_GHL\index.html` a `/mapa-flujos/index.html` dentro de este repo.
 2. [x] Comprobar que lleva `<meta name="robots" content="noindex, follow">`.
 3. [x] Mantenerlo sin enlaces desde el índice del sitio ni desde otras páginas.
-4. [x] Verificar la URL publicada: `https://recursos.brandty.es/mapa-flujos/`.
+4. [ ] Verificar la URL por HTTPS y la interacción en navegador cuando GitHub emita el certificado:
+   `https://recursos.brandty.es/mapa-flujos/`.
 
 **Recordatorio de mantenimiento:** cada vez que se actualice el mapa original, volver a copiar
 `30_PROYECTOS\MAPA_FLUJOS_GHL\index.html` sobre `mapa-flujos/index.html`, comprobar que conserva
