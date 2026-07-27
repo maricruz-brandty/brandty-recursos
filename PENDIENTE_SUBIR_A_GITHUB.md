@@ -4,7 +4,7 @@ Estado: **repositorio, Pages y DNS operativos; certificado HTTPS pendiente**. Ac
 
 - Repo público: `https://github.com/maricruz-brandty/brandty-recursos`
 - Rama y origen de Pages: `main` · `/ (root)`
-- Build verificado: commit `6b1f662069e967906f3f5cc61fa676b330936c09`
+- Build verificado: último commit de `main`, estado `built` el 2026-07-27
 - Dominio configurado en GitHub Pages: `recursos.brandty.es`
 - DNS verificado: `recursos.brandty.es` → `maricruz-brandty.github.io`
 - Bloqueo actual: GitHub todavía está emitiendo el certificado; las cuatro rutas responden por HTTP, pero falta activar HTTPS.
