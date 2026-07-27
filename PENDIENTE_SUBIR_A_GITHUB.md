@@ -1,19 +1,21 @@
 # ESTADO · Publicación en GitHub Pages
 
-Estado: **repositorio publicado y Pages desplegado; DNS pendiente**. Actualizado: 2026-07-27.
+Estado: **repositorio, Pages y DNS operativos; certificado HTTPS pendiente**. Actualizado: 2026-07-27.
 
 - Repo público: `https://github.com/maricruz-brandty/brandty-recursos`
 - Rama y origen de Pages: `main` · `/ (root)`
-- Build verificado: commit `f8cb8409bf58389ca2b6f01db810c5f54f325192`
+- Build verificado: commit `6b1f662069e967906f3f5cc61fa676b330936c09`
 - Dominio configurado en GitHub Pages: `recursos.brandty.es`
-- Bloqueo actual: el registro DNS todavía no existe; las URL públicas no resolverán hasta completar el paso 4.
+- DNS verificado: `recursos.brandty.es` → `maricruz-brandty.github.io`
+- Bloqueo actual: GitHub todavía está emitiendo el certificado; las cuatro rutas responden por HTTP, pero falta activar HTTPS.
 
 ## Qué falta hacer (por orden)
 
 1. [x] Crear el repositorio público `maricruz-brandty/brandty-recursos`.
 2. [x] Subir la carpeta completa, incluidos `.nojekyll` y `CNAME`.
 3. [x] Activar Pages desde `main` y `/ (root)`.
-4. [ ] **DNS**: crear un registro **CNAME** `recursos` → `maricruz-brandty.github.io` en el proveedor de dominio de Brandty. Después, cuando GitHub valide el certificado, marcar **Enforce HTTPS**.
+4. [x] Crear **CNAME** `recursos` → `maricruz-brandty.github.io`.
+5. [ ] Cuando GitHub termine de emitir el certificado, activar **Enforce HTTPS**.
 
 ## Comprobar antes de dar por bueno
 
@@ -41,5 +43,5 @@ Estas URL son de **ENTREGA**: solo se usan **después** de que la persona haya d
 
 ## Otros pendientes relacionados
 
-- Subir los **PDF rellenables** a Media Storage de GHL y anotar sus URL en `30_PROYECTOS\00_LEAD_MAGNETS\06_PDF_RELLENABLES_2026-07-24\README_ENTREGA_Y_URLS.md`.
+- Subir los **PDF rellenables** a Media Storage de GHL y anotar sus URL en `30_PROYECTOS\00_LEAD_MAGNETS\06_PDF PARA ENTREGAR (rellenables) 2026-07-24\LEEME - entrega y URLs.md`.
 - Crear la **landing `/puntua-tu-consultora`** en GHL (aún no existe) antes de activar MKT-04.
